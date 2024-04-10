@@ -37,7 +37,11 @@ const { clearTimeout } = require("timers");
 app.use(bodyParser.urlencoded({ extended: true, limit: "10mb" }));
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://34.229.93.25:5000"],
+    origin: [
+      "http://localhost:3000",
+      "http://34.229.93.25:5000",
+      "https://alumni-frontend-kappa.vercel.app" // Add this line
+    ],
     credentials: true,
   })
 );
