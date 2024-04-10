@@ -25,6 +25,7 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "validator": "^13.9.0",
+    "vercel": "^33.7.0",
     "ws": "^8.16.0"
   },
   "devDependencies": {
